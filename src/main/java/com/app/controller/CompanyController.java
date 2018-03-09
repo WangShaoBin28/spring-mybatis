@@ -19,7 +19,7 @@ public class CompanyController {
     private CompanyService companyService;
 
     /**
-     * 列表
+     * 列表1
      */
     @RequestMapping("list")
     public String list(QueryVo vo, ModelMap modelMap) {
